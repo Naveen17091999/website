@@ -1,0 +1,134 @@
+#navbar {
+
+    header {
+        display: flex;
+        align-items: center;
+        background-color: #131921;
+        height: 60px;
+        justify-content: space-between;
+        padding: 0 20px;
+
+        a {
+            display: flex;
+            align-items: center;
+
+            img {
+                height: 50px;
+                width: 130px;
+            }
+
+            span {
+                color: white;
+                margin-bottom: 13px;
+            }
+        }
+
+        .block {
+            color: white;
+            display: flex;
+            flex-direction: column;
+
+            span:first-child {
+                font-size: 11px;
+                color: rgb(204, 202, 202);
+            }
+
+            span {
+                font-size: 14px;
+                font-weight: 500;
+            }
+        }
+
+        #address {
+            color: white;
+            display: flex;
+            align-items: center;
+        }
+
+
+        .search {
+            // color: aliceblue;
+            display: flex;
+            align-items: center;
+            width: 50%;
+
+            .all {
+                height: 40px;
+                background-color: #d8d8d8;
+                width: 40px;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                padding: 0 10px;
+                border-top-left-radius: 5px;
+                border-bottom-left-radius: 5px;
+
+                span {
+                    font-size: 14px;
+
+                }
+            }
+
+            input {
+                width: 90%;
+                height: 38px;
+                border: none;
+            }
+
+            input:focus {
+                outline: none;
+            }
+
+            input::placeholder {
+
+                font-size: 15px;
+                font-weight: 600;
+                color: #a6a6a6;
+                padding: 0 10px;
+            }
+
+            .search_div {
+                height: 40px;
+                width: 40px;
+                background-color: #ffc155;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                border-top-right-radius: 5px;
+                border-bottom-right-radius: 5px;
+                padding: 0 5px;
+            }
+        }
+
+        .country {
+            color: #d8d8d8;
+            width: 60px;
+            height: 40px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            padding: 0 10px;
+            gap: 3px;
+
+            span {
+                font-size: 14px;
+                font-weight: 700;
+                margin-bottom: 4px;
+            }
+        }
+
+        .cart {
+            color: #ffffff;
+            position: relative;
+            #count {
+                position: absolute;
+                top: -10px;
+                left: 12px;
+            }
+            span{
+                font-size: 13px;
+                font-weight: 500;
+            }
+        }
+    }
+}
