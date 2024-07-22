@@ -1,0 +1,28 @@
+#hero {
+    background: #e3e6e6;
+    position: relative;
+    
+
+    .slider {
+
+        #swiper {
+            width: 80%;
+
+            img {
+                height: 700px;
+            
+            }
+
+        }
+
+    }
+
+    .cards{
+        position: absolute;
+        bottom: 0px;
+        z-index: 1;
+        left: 160px;
+        display: flex;
+        gap: 10px;
+    }
+}

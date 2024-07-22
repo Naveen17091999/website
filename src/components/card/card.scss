@@ -1,0 +1,38 @@
+#card{
+    padding: 15px;
+    width: 320px;
+    background: #fff;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    align-items: start;
+
+    h3{
+        margin: 0;
+        width: 100%;
+    }
+
+    .img{
+        display: grid;
+        grid-template-columns: auto auto;
+        justify-content: center;
+        gap: 20px;
+        .details{
+            width: 50%;
+            img{
+                width: 150px;
+            }
+            .sub{
+                color: #0f1111;
+                margin: 0;
+                font-size: 12px;
+                width:150px
+            };
+        }
+    }
+
+    p{
+        margin: 0;
+        color: #007185;
+    }
+}
