@@ -1,12 +1,16 @@
 import './App.css';
-import Hero from "./components/hero/Hero.jsx";
-import Navbar from "./components/navbar/Navbar.jsx";
+import Footer from './components/footer/Footer.jsx';
+
 
 function App() {
   return (
     <div className="App">
-     <Navbar/>
+     {/* <Navbar/>
      <Hero />
+     <Card2 images={card2_images} title={"Up to 60% off | Kitchen essentials | From local stores nearby"}/> */}
+     {/* <SignIn/> */}
+
+     <Footer />
     </div>
   );
 }

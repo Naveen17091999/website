@@ -1,0 +1,88 @@
+#SignIn {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+
+    .img {
+        display: flex;
+        align-items: center;
+
+        img {
+            height: 50px;
+        }
+
+        span {
+            padding-bottom: 10px;
+        }
+    }
+
+    .form {
+        width: 300px;
+        // display: flex;
+        // justify-content: center;
+        // flex-direction: column;
+        border: 1px solid #dddddd;
+        padding: 20px 25px;
+        border-radius: 10px;
+        gap: 20px;
+
+        h3 {
+            font-weight: normal;
+            font-size: larger;
+            margin: 0;
+            margin-bottom: 20px;
+        }
+
+        
+
+        .field{
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            gap: 12px;
+            h5 {
+                margin: 0;
+            }
+
+            input{
+                height: 25px;
+            }
+
+            button{
+                height: 30px;
+                background: #ffd814;
+                border: none;
+                border-radius: 8px;
+                font-size: small;
+            }
+        }
+
+
+        p{
+            font-size: small;
+
+            a{
+                color: #007185;
+            }
+        }
+
+        hr{
+            background: #cccccc;
+        }
+
+        h5{
+            font-weight: 600;
+            margin: 0;
+        }
+
+        #shop{
+            margin: 10px 0;
+            color: #007185;
+        }
+    }
+
+    hr{
+        
+    }
+}
